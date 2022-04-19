@@ -1,9 +1,14 @@
-
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8"> 
         <title>TITULO DAORA</title>
+        <style>
+            table, th, td { 
+                    border: 1px solid black;
+                    border-collapse: collapse;
+            }
+        </style>
     </head>
     <body style="background-image: url(bgvaporwave.gif); background-attachment: fixed ;background-size: cover;">
         <h1> Pagina principal</h1><br>
@@ -24,26 +29,63 @@
             <li>página em branco</li>
             <li>site muito bonito</li>
         </ol>
-        <h2>Tabla bem bonita</h2>
-        <table style="border: 1px solid black">
+        <h2>Tablela bem bonita</h2>
+        <table style="width:30%">
             <tr>
                 <th>Nome</th>
-                <th>Idade</th>
+                <th colspan="2">telefone</th>
             </tr>
             <tr>
                 <td>João</td>
-                <td>10</td>
+                <td>011</td>
+                <td>123456789</td>
             </tr>
             <tr>
                 <td>Maria</td>
-                <td>12</td>
+                <td>016</td>
+                <td>120489875</td>
+            </tr>
+            <tr>
+                <td>José</td>
+                <td>085</td>
+                <td>987560156</td>
             </tr>
         </table>
         <p style="color: rgb(33, 185, 2)">texto texto texto texto texto texto texto texto <br>
             texto texto texto texto texto texto texto texto </p>
             <br><br>
-            <img src="bob.gif" width="100" height="100">
-            <br><br>
+        <img src="bob.gif" width="100" height="100">
+            <br><br><br>
+            <h2>Tabela com mescla de linhas</h2>
+        <table style="width: 20%;">
+            <thead>
+                <tr>
+                    <th colspan="2">PROGRAMAÇÃO</th>
+                </tr>
+                <tr>
+                    <th>Data</th>
+                    <th>Aula</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">19/04</td>
+                    <td>INW</td>
+                </tr>
+                <tr>
+                    <td>ARQ</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">20/04</td>
+                    <td>AP1</td>
+                </tr>
+                <tr>
+                    <td>Ap1</td>
+                </tr>
+            </tbody>
+        </table>
+
+
         <p style="color: rgb(2, 185, 100)">texto texto texto texto texto <br>
             texto texto texto texto texto texto texto texto </p><br><br>
         <h2>Links</h2>
